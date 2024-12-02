@@ -20,8 +20,8 @@ bg = PhotoImage(file="MainBg.png")
 bgImgLab = Label(Mframe,image=bg)
 bgImgLab.place(x=0,y=0,relwidth=1,relheight=1)
 
-ChefImg = PhotoImage(file="chef.png")
-ChefImg = ChefImg.subsample(2,2)
+# ChefImg = PhotoImage(file="chef.png")
+# ChefImg = ChefImg.subsample(2,2)
 
 TitleImg = PhotoImage(file="Ng_TitleImg.png")
 TitleImg = TitleImg.subsample(1,1)
@@ -63,8 +63,8 @@ tilt_Lab = Label(Mframe,image=TitleImg,text="Nitin's Kitchen",bg='#9AD2A1',fg='r
                  compound='left')
 tilt_Lab.place(x=100,y=50)
 
-chef_Lab = Label(Mframe,image=ChefImg,bg='#9AD2A1')
-chef_Lab.place(x=100,y=210)
+# chef_Lab = Label(Mframe,image=ChefImg,bg='#9AD2A1')
+# chef_Lab.place(x=100,y=210)
 
 
 def FrameRaise_ButFun(framNam):
